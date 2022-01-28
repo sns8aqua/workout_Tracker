@@ -5,7 +5,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var usernameUITextField: UITextField!
     @IBOutlet weak var passwordUITextField: UITextField!
     @IBOutlet weak var loginWithSocialLabel: UILabel!
-
+    @IBOutlet weak var loginButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +15,10 @@ class LoginViewController: UIViewController {
             
         loginWithSocialLabel.textColor = .appPrimaryColor
         loginWithSocialLabel.font = .regularFont(size: 20)
+        
+        self.loginButton.layer.cornerRadius = 10
+        self.loginButton.layer.masksToBounds = true
+        
         self.tabBarController?.tabBar.isHidden = true
         for fontFamily in UIFont.familyNames
                 {
