@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE336331279CCA2A00906AF0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE336330279CCA2A00906AF0 /* CustomTextField.swift */; };
+		BEA9D990279F0E1400803747 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9D98F279F0E1400803747 /* DBManager.swift */; };
+		BEA9D992279F0FC700803747 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9D991279F0FC700803747 /* UserModel.swift */; };
+		BEA9D994279F107F00803747 /* DBCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9D993279F107F00803747 /* DBCommon.swift */; };
 		BEABDE1A278E0E99008697D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABDE19278E0E99008697D0 /* AppDelegate.swift */; };
 		BEABDE1C278E0E99008697D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABDE1B278E0E99008697D0 /* SceneDelegate.swift */; };
-		BEABDE1E278E0E99008697D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABDE1D278E0E99008697D0 /* ViewController.swift */; };
+		BEABDE1E278E0E99008697D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABDE1D278E0E99008697D0 /* LoginViewController.swift */; };
 		BEABDE21278E0E99008697D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEABDE1F278E0E99008697D0 /* Main.storyboard */; };
 		BEABDE24278E0E99008697D0 /* workoutTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEABDE22278E0E99008697D0 /* workoutTracker.xcdatamodeld */; };
-		BEABDE26278E0E9B008697D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEABDE25278E0E9B008697D0 /* Assets.xcassets */; };
 		BEABDE29278E0E9B008697D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEABDE27278E0E9B008697D0 /* LaunchScreen.storyboard */; };
 		BEABDE34278E0E9B008697D0 /* workoutTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABDE33278E0E9B008697D0 /* workoutTrackerTests.swift */; };
 		BEABDE3E278E0E9B008697D0 /* workoutTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABDE3D278E0E9B008697D0 /* workoutTrackerUITests.swift */; };
 		BEABDE40278E0E9B008697D0 /* workoutTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEABDE3F278E0E9B008697D0 /* workoutTrackerUITestsLaunchTests.swift */; };
+		BEAC2C0E27A1D5DA00360EA8 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAC2C0D27A1D5DA00360EA8 /* Asset.xcassets */; };
+		BEAC2C1027A1E7AA00360EA8 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC2C0F27A1E7AA00360EA8 /* AppColors.swift */; };
+		BEAC2C1227A1F0A200360EA8 /* AppStaticValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC2C1127A1F0A200360EA8 /* AppStaticValues.swift */; };
+		BEAC2C1427A1F33900360EA8 /* AppCustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC2C1327A1F33900360EA8 /* AppCustomFonts.swift */; };
+		BEAC2C1727A20A0800360EA8 /* Blunt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEAC2C1627A20A0800360EA8 /* Blunt.ttf */; };
+		BEAC2C1D27A213DD00360EA8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC2C1C27A213DD00360EA8 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE336330279CCA2A00906AF0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		BEA9D98F279F0E1400803747 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		BEA9D991279F0FC700803747 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BEA9D993279F107F00803747 /* DBCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBCommon.swift; sourceTree = "<group>"; };
 		BEABDE16278E0E99008697D0 /* workoutTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workoutTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEABDE19278E0E99008697D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEABDE1B278E0E99008697D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEABDE1D278E0E99008697D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEABDE1D278E0E99008697D0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BEABDE20278E0E99008697D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEABDE23278E0E99008697D0 /* workoutTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = workoutTracker.xcdatamodel; sourceTree = "<group>"; };
-		BEABDE25278E0E9B008697D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEABDE28278E0E9B008697D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEABDE2A278E0E9B008697D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEABDE2F278E0E9B008697D0 /* workoutTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = workoutTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +63,12 @@
 		BEABDE39278E0E9B008697D0 /* workoutTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = workoutTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEABDE3D278E0E9B008697D0 /* workoutTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutTrackerUITests.swift; sourceTree = "<group>"; };
 		BEABDE3F278E0E9B008697D0 /* workoutTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEAC2C0D27A1D5DA00360EA8 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		BEAC2C0F27A1E7AA00360EA8 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		BEAC2C1127A1F0A200360EA8 /* AppStaticValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStaticValues.swift; sourceTree = "<group>"; };
+		BEAC2C1327A1F33900360EA8 /* AppCustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCustomFonts.swift; sourceTree = "<group>"; };
+		BEAC2C1627A20A0800360EA8 /* Blunt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blunt.ttf; sourceTree = "<group>"; };
+		BEAC2C1C27A213DD00360EA8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				BEABDE18278E0E99008697D0 /* workoutTracker */,
+				BEAC2C1527A20A0800360EA8 /* Blunt */,
 				BEABDE32278E0E9B008697D0 /* workoutTrackerTests */,
 				BEABDE3C278E0E9B008697D0 /* workoutTrackerUITests */,
 				BEABDE17278E0E99008697D0 /* Products */,
@@ -101,14 +120,22 @@
 		BEABDE18278E0E99008697D0 /* workoutTracker */ = {
 			isa = PBXGroup;
 			children = (
+				BEAC2C1927A2137500360EA8 /* Profile */,
+				BEAC2C1827A2115100360EA8 /* Login */,
 				BEABDE19278E0E99008697D0 /* AppDelegate.swift */,
 				BEABDE1B278E0E99008697D0 /* SceneDelegate.swift */,
-				BEABDE1D278E0E99008697D0 /* ViewController.swift */,
+				BEAC2C1127A1F0A200360EA8 /* AppStaticValues.swift */,
+				BEA9D98F279F0E1400803747 /* DBManager.swift */,
+				BEA9D993279F107F00803747 /* DBCommon.swift */,
+				BE336330279CCA2A00906AF0 /* CustomTextField.swift */,
+				BEAC2C0D27A1D5DA00360EA8 /* Asset.xcassets */,
 				BEABDE1F278E0E99008697D0 /* Main.storyboard */,
-				BEABDE25278E0E9B008697D0 /* Assets.xcassets */,
 				BEABDE27278E0E9B008697D0 /* LaunchScreen.storyboard */,
 				BEABDE2A278E0E9B008697D0 /* Info.plist */,
 				BEABDE22278E0E99008697D0 /* workoutTracker.xcdatamodeld */,
+				BEA9D991279F0FC700803747 /* UserModel.swift */,
+				BEAC2C0F27A1E7AA00360EA8 /* AppColors.swift */,
+				BEAC2C1327A1F33900360EA8 /* AppCustomFonts.swift */,
 			);
 			path = workoutTracker;
 			sourceTree = "<group>";
@@ -128,6 +155,31 @@
 				BEABDE3F278E0E9B008697D0 /* workoutTrackerUITestsLaunchTests.swift */,
 			);
 			path = workoutTrackerUITests;
+			sourceTree = "<group>";
+		};
+		BEAC2C1527A20A0800360EA8 /* Blunt */ = {
+			isa = PBXGroup;
+			children = (
+				BEAC2C1627A20A0800360EA8 /* Blunt.ttf */,
+			);
+			name = Blunt;
+			path = workoutTracker/Blunt;
+			sourceTree = "<group>";
+		};
+		BEAC2C1827A2115100360EA8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BEABDE1D278E0E99008697D0 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BEAC2C1927A2137500360EA8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BEAC2C1C27A213DD00360EA8 /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEABDE29278E0E9B008697D0 /* LaunchScreen.storyboard in Resources */,
-				BEABDE26278E0E9B008697D0 /* Assets.xcassets in Resources */,
+				BEAC2C1727A20A0800360EA8 /* Blunt.ttf in Resources */,
+				BEAC2C0E27A1D5DA00360EA8 /* Asset.xcassets in Resources */,
 				BEABDE21278E0E99008697D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +314,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEABDE1E278E0E99008697D0 /* ViewController.swift in Sources */,
+				BEAC2C1027A1E7AA00360EA8 /* AppColors.swift in Sources */,
+				BEA9D994279F107F00803747 /* DBCommon.swift in Sources */,
+				BEABDE1E278E0E99008697D0 /* LoginViewController.swift in Sources */,
+				BEA9D992279F0FC700803747 /* UserModel.swift in Sources */,
+				BEA9D990279F0E1400803747 /* DBManager.swift in Sources */,
+				BEAC2C1427A1F33900360EA8 /* AppCustomFonts.swift in Sources */,
+				BEAC2C1D27A213DD00360EA8 /* ProfileViewController.swift in Sources */,
 				BEABDE1A278E0E99008697D0 /* AppDelegate.swift in Sources */,
 				BEABDE24278E0E99008697D0 /* workoutTracker.xcdatamodeld in Sources */,
+				BEAC2C1227A1F0A200360EA8 /* AppStaticValues.swift in Sources */,
 				BEABDE1C278E0E99008697D0 /* SceneDelegate.swift in Sources */,
+				BE336331279CCA2A00906AF0 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
